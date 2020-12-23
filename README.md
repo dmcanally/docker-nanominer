@@ -19,4 +19,7 @@ Build a new version
 ```
 ### Kubernetes
 **Be sure to change the update kubernetes/nanominer/configmap.yaml to contain your wallet and email.**
+
+```bash
 kubectl apply -k kubernetes/
+```
