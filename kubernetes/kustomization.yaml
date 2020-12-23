@@ -1,0 +1,4 @@
+resources:
+  - ./nanominer/configmap.yaml
+  - ./nanominer/daemonset.yaml
+  - ./nanominer/serviceaccount.yaml

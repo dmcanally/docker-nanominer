@@ -14,3 +14,7 @@ RUN \
     wget https://github.com/nanopool/nanominer/releases/download/v$VER/nanominer-linux-$VER.tar.gz && \
     tar xzvf nanominer-linux-$VER.tar.gz && \
     mv nanominer-linux-$VER nanominer
+
+WORKDIR /nanominer
+
+CMD ["/nanominer/nanominer","/nanominer/config.ini"]

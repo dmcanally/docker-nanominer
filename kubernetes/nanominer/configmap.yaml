@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nanominer
+data:
+  config.ini: |-
+    [RandomHash2]
+    wallet=1138699-50
+    paymentId = 0
+    coin=Pascal
+    sortPools=true
+    email=denver.mcanally@gmail.com
+    pool1=fastpool.xyz:3336
